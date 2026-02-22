@@ -1,0 +1,47 @@
+# Local env / secrets
+.env
+.env.*
+!.env.example
+
+# Local development volumes (keep folder, ignore contents)
+data/*
+!data/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python (future-proof)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.coverage
+coverage.xml
+htmlcov/
+
+# Frontend build/deps
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.eslintcache
+
+# Logs / local artifacts
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local DB / misc
+*.sqlite
+*.sqlite3
+*.db
+
+# Personal notes
+TODO.md
+TODO.local.md

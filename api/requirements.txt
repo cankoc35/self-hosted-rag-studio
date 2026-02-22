@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+watchfiles
+pypdf
+python-multipart
+asyncpg
+spacy
+httpx
+PyJWT
+bcrypt
